@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Perpustakaan | Digital Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER DAN NAVIGASI -->
+    <header class="navbar">
+        <a href="index.html" class="logo">
+    <img src="images/digital_library_logo.jpeg"
+         alt="Logo Digital Library"
+         class="logo-image">
+            </svg>
+            <span>Digital Library</span>
+        </a>
+
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="layanan.html" class="active">Layanan Perpustakaan</a>
+            <a href="pustakawan.html">Pustakawan</a>
+            <a href="struktur.html">Struktur Organisasi</a>
+            <a href="visi-misi.html">Visi &amp; Misi</a>
+            <a href="koleksi.html">Koleksi Buku & PDF</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- BANNER HALAMAN -->
+        <section class="layanan-hero">
+            <div class="layanan-hero-content">
+                <p class="label-atas">DIGITAL LIBRARY</p>
+                <h1>Layanan Perpustakaan</h1>
+                <p>
+                    Temukan layanan dan sumber informasi yang mendukung
+                    kegiatan membaca, belajar, dan penelitian.
+                </p>
+            </div>
+        </section>
+
+        <!-- DAFTAR LAYANAN -->
+        <section class="daftar-layanan">
+            <div class="judul-bagian">
+                <p class="label-atas">APA YANG KAMI SEDIAKAN?</p>
+                <h2>Layanan untuk Pengunjung</h2>
+                <p>
+                    Berbagai layanan untuk membantu pengunjung memperoleh
+                    informasi dan memanfaatkan koleksi perpustakaan.
+                </p>
+            </div>
+
+            <div class="layanan-grid">
+                <article class="kartu-layanan">
+                    <div class="ikon-layanan">📚</div>
+                    <h3>Peminjaman Buku</h3>
+                    <p>
+                        Layanan peminjaman dan pengembalian buku
+                        untuk menunjang kebutuhan belajar.
+                    </p>
+                </article>
+
+                <article class="kartu-layanan">
+                    <div class="ikon-layanan">📖</div>
+                    <h3>Ruang Baca</h3>
+                    <p>
+                        Ruang untuk membaca, belajar, dan mencari
+                        informasi dengan nyaman.
+                    </p>
+                </article>
+
+                <article class="kartu-layanan">
+                    <div class="ikon-layanan">📄</div>
+                    <h3>Bebas Pustaka</h3>
+                    <p>
+                        Layanan pengurusan bebas pustaka sesuai
+                        ketentuan perpustakaan.
+                    </p>
+                </article>
+
+                <article class="kartu-layanan">
+                    <div class="ikon-layanan">🔎</div>
+                    <h3>Cek Plagiarisme</h3>
+                    <p>
+                        Layanan pemeriksaan kemiripan dokumen
+                        untuk membantu penulisan karya ilmiah.
+                    </p>
+                </article>
+
+                <article class="kartu-layanan">
+                    <div class="ikon-layanan">💻</div>
+                    <h3>Akses E-Journal</h3>
+                    <p>
+                        Akses sumber informasi ilmiah elektronik
+                        untuk mendukung tugas dan penelitian.
+                    </p>
+                </article>
+
+                <article class="kartu-layanan">
+                    <div class="ikon-layanan">🌱</div>
+                    <h3>Literasi Informasi</h3>
+                    <p>
+                        Membantu pengunjung mengenali kebutuhan,
+                        mencari, dan menggunakan informasi dengan tepat.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- TABEL KOLEKSI BUKU -->
+        <section class="koleksi-buku">
+            <div class="judul-bagian">
+                <p class="label-atas">JELAJAHI KOLEKSI</p>
+                <h2>Koleksi Buku Pilihan</h2>
+                <p>
+                    Berikut contoh tampilan katalog koleksi buku
+                    yang dapat ditemukan di Digital Library.
+                </p>
+            </div>
+
+            <div class="tabel-wrapper">
+                <table class="tabel-koleksi">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Judul Buku</th>
+                            <th>Penulis</th>
+                            <th>Penerbit</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Pengantar Ilmu Perpustakaan</td>
+                            <td>Sulistyo-Basuki</td>
+                            <td>Universitas Terbuka</td>
+                            <td><span class="status tersedia">Tersedia</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Pengantar Ilmu Dokumentasi</td>
+                            <td>Sulistyo-Basuki</td>
+                            <td>Rekayasa Sains</td>
+                            <td><span class="status tersedia">Tersedia</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Metode Penelitian</td>
+                            <td>Sugiyono</td>
+                            <td>Alfabeta</td>
+                            <td><span class="status dipinjam">Dipinjam</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td>Dasar-Dasar Ilmu Perpustakaan</td>
+                            <td>Penulis contoh</td>
+                            <td>Penerbit contoh</td>
+                            <td><span class="status tersedia">Tersedia</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="catatan-koleksi">
+                Catatan: data koleksi dan status pada tabel ini merupakan
+                contoh untuk desain website, bukan data inventaris aktual.
+            </p>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Digital Library. Simpan Pengetahuan, Tumbuhkan Wawasan.</p>
+    </footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>
